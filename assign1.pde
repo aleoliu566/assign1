@@ -5,23 +5,23 @@ float a,tx,ty,hpy,enemyx,enemyy;
 
 void setup () {
     size(640,480) ;  // must use this size.
-    fighter = loadImage("fighter.png");
+    fighter = loadImage("img/fighter.png");
     a = random(430);
     
-    hp = loadImage("hp.png");
+    hp = loadImage("img/hp.png");
     hpy = random(198);
     fill(255,0,0);
     noStroke();
   
-    treasure = loadImage("treasure.png");
+    treasure = loadImage("img/treasure.png");
     tx = random(640);
     ty = random(440);
     
     enemyy = random(440);
-    enemy = loadImage("enemy.png");
+    enemy = loadImage("img/enemy.png");
     
-    bg1 = loadImage("bg1.png");
-    bg2 = loadImage("bg2.png");
+    bg1 = loadImage("img/bg1.png");
+    bg2 = loadImage("img/bg2.png");
     
 
 }
