@@ -28,14 +28,14 @@ void setup () {
 
 void draw() {
     image (bg1,bgx1,0);
-    image (bg2,bgx2+640,0);
-    bgx1 = bgx1 - 2;
-    if(bgx1==-640){
-      bgx1=640;
+    image (bg2,bgx2-640,0);
+    bgx1 = bgx1 +1;
+    if(bgx1==640){
+      bgx1=-640;
     }
     bgx1 = bgx1 % 641;
-    bgx2 = bgx2 - 2;
-    if(bgx2==-1280){
+    bgx2 = bgx2 +1;
+    if(bgx2==1280){
       bgx2=0;
     }
     bgx2 = bgx2 % 1281;
