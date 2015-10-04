@@ -5,7 +5,7 @@ float a,tx,ty,hpy,enemyx,enemyy;
 
 void setup () {
     size(640,480) ;  // must use this size.
-    fighter = loadImage("img/fighter.png");
+    fighter = loadImage("assign1/img/fighter.png");
     a = random(430);
     
     hp = loadImage("img/hp.png");
