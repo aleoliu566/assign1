@@ -14,10 +14,10 @@ void setup () {
     noStroke();
   
     treasure = loadImage("img/treasure.png");
-    tx = random(640);
+    tx = random(600);
     ty = random(440);
     
-    enemyy = random(440);
+    enemyy = random(415);
     enemy = loadImage("img/enemy.png");
     
     bg1 = loadImage("img/bg1.png");
